@@ -1,0 +1,92 @@
+#circle {
+    background-color: #363646;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid #938aa9;
+    position: relative;
+}
+
+#circle .num {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: #dcd7ba;
+}
+
+#circle .num1 {
+    transform: rotate(30deg);
+}
+
+#circle .num2 {
+    transform: rotate(60deg);
+}
+
+#circle .num3 {
+    transform: rotate(90deg);
+}
+
+#circle .num4 {
+    transform: rotate(120deg);
+}
+
+#circle .num5 {
+    transform: rotate(150deg);
+}
+
+#circle .num6 {
+    transform: rotate(180deg);
+}
+
+#circle .num7 {
+    transform: rotate(210deg);
+}
+
+#circle .num8 {
+    transform: rotate(240deg);
+}
+
+#circle .num9 {
+    transform: rotate(270deg);
+}
+
+#circle .num10 {
+    transform: rotate(300deg);
+}
+
+#circle .num11 {
+    transform: rotate(330deg);
+}
+
+
+#minutes,
+#hour,
+#seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+}
+
+#hour {
+    background-color: #e6c384;
+    height: 100px;
+    width: 8px;
+    transform: rotate(125deg);
+}
+
+#minutes {
+    background-color: #6a9589;
+    height: 120px;
+    width: 4px;
+    transform: rotate(255deg);
+}
+
+#seconds {
+    background-color: #9cabca;
+    height: 127px;
+    width: 2px;
+}
